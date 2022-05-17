@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="imagens/icon.png" href="imagens/icon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Projeto_Player</title>
+</head>
+
+<body>
+
+    <div class="img">
+        <img src="imagens/img.jpg" alt="imagem com erro">
+    </div>
+
+    <div class="texto">
+        <h2>Save Your Tears</h2>
+        <i>The Weekend</i>
+    </div>
+
+    <div class="duracao">
+        <div class="barra">
+            <progress id="progress" value="0" max="1"></progress>
+
+        </div>
+
+        <div class="tempo_da_musica">
+            <p class="inicio">00:00</p>
+            <p class="fim">04:08</p>
+        </div>
+    </div>
+
+
+    <div class="botao">
+        <i class="fa-solid fa-backward-step setas"></i>
+        <i class="fa-solid fa-circle-play botao-play"></i>
+        <i class="fa-solid fa-circle-pause botao-pause"></i>
+        <i class="fa-solid fa-forward-step setas"></i>
+    </div>
+
+    <audio id="myPlayer" src="musicas/The Weeknd - Save Your Tears (Official Music Video).mp3"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
